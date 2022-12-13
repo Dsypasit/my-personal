@@ -3,7 +3,7 @@ import Start from "./components/Start";
 
 function App() {
   return (
-    <div>
+    <div className="cursor-default">
       <Start />
       <About />
     </div>
