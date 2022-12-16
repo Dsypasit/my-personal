@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Experience from "./components/Experience";
 import Start from "./components/Start";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="cursor-default">
       <Start />
       <About />
+      <Experience />
     </div>
   );
 }
