@@ -3,8 +3,8 @@ import Profile from "../assets/profile.jpg";
 
 function About() {
   return (
-    <div className="w-full  h-[800px] bg-gray-800 text-center">
-      <h1 className="text-white text-7xl font-extrabold pt-5">About me</h1>
+    <div className="w-full  h-full bg-gray-800 text-center py-20">
+      <h1 className="text-white text-7xl font-extrabold mb-10">About me</h1>
       <div className="flex md:flex-row flex-col justify-center  my-10 md:mx-[200px] items-center">
         <div className="flex flex-1 items-center justify-center">
           <img
