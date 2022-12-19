@@ -1,15 +1,16 @@
-import About from "./components/About";
-import Experience from "./components/Experience";
-import ProjectDisplay from "./components/ProjectDisplay";
-import Start from "./components/Start";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Project from "./pages/Project";
 
 function App() {
   return (
     <div className="cursor-default">
-      <Start />
-      <About />
-      <Experience />
-      <ProjectDisplay />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/project/:id" element={<Project />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
